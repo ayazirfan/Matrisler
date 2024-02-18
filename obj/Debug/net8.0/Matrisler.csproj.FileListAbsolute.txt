@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\bin\Debug\net8.0\Matrisler.exe
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\bin\Debug\net8.0\Matrisler.deps.json
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\bin\Debug\net8.0\Matrisler.runtimeconfig.json
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\bin\Debug\net8.0\Matrisler.dll
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\bin\Debug\net8.0\Matrisler.pdb
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.AssemblyInfo.cs
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.dll
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\refint\Matrisler.dll
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.pdb
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.genruntimeconfig.cache
+C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\ref\Matrisler.dll
