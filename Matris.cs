@@ -32,6 +32,17 @@ public class Matris
             System.Console.WriteLine();
         }
     }
+
+        public static void Yazdir (int [] X)
+        {
+         for (int i = 0; i < X.Length; i++)
+         {
+            System.Console.WriteLine();
+            System.Console.Write("{0,5}", X[i]);
+            System.Console.WriteLine();
+         }   
+        }
+
     /// <summary>
     /// Sıfır matrisi oluşturur
     /// </summary>
@@ -116,6 +127,27 @@ public class Matris
         }
         return s;
     }  
+
+    /// <summary>
+    /// Diyagonel elemanların listesini bir dizi olarak doner
+    /// </summary>
+    /// <param name="X">Matrisi</param>
+    /// <returns>Diyagonel elemanların listesi</returns>
+    public static int [] DiyagonelElemanlarinListesi ( int [,] X)
+    {
+        if (KareMatrisMi(X))
+        {
+            int [] D = new int[X.GetLength(0)];
+            for (int i = 0; i < X.GetLength(0); i++)
+                D[i] = X [i,i];
+            return D;            
+        }
+        else
+        {
+            System.Console.WriteLine("Lütfen Kare Matris giriniz!");
+            return new int [1];
+        }
+    }
 
 
 }
