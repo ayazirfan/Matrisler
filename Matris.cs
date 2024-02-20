@@ -69,5 +69,53 @@ public class Matris
         return X;
 
     }
+    /// <summary>
+    /// Skaler matris oluşturur
+    /// </summary>
+    /// <param name="boyut">Satır ve sutun</param>
+    /// <param name="skaler">Kösegenler üstundeki değer</param>
+    /// <returns>skaler matrisi temsil eder</returns>
+    public static int [,] SkalerMatrisOlustur (int boyut =3, int skaler=3)
+    {
+        return KosegenMatrisOlustur(boyut,skaler,skaler);
+    }
+/// <summary>
+/// Kare Matris Kontrolu yapar
+/// </summary>
+/// <param name="X">Matris</param>
+/// <returns>Sonuc</returns>
+    public static bool KareMatrisMi (int [,] X)
+    {
+        return X.GetLength(0)==X.GetLength(1) ? true : false;
+    }
+
+    public static int [,] BirimMatrisOlustur (int boyut=3)
+    {
+        return SkalerMatrisOlustur (boyut, 1);
+    }
+
+    public static bool BirimMatrisMi (int [,] X)
+    {
+        bool s = true;
+        for (int i = 0; (i<X.GetLength(0)&& s==true); i++)
+        {
+            for (int j = 0; j < X.GetLength(1); j++)
+            {
+                if (X[i,j]!=0 && i!=j)
+                {
+                    s = false;
+                    break;
+                }
+                else if (X[i,i]!=1 && i==j )
+                {
+                    s = false;
+                    break;
+                }
+            }
+           
+        }
+        return s;
+    }  
+
 
 }
