@@ -149,5 +149,25 @@ public class Matris
         }
     }
 
+/// <summary>
+/// Bir Matrisin İzini hesaplar
+/// </summary>
+/// <param name="X">Matris</param>
+/// <returns>İzi</returns>
+    public static int Izi (int [,] X)
+    {
+        int t =0;
+        if (KareMatrisMi(X))
+        {
+            int [] D = DiyagonelElemanlarinListesi (X);
+            for (int i = 0; i < X.GetLongLength(0); i++)
+            t+=X[i,i];
+            return t;              
+        }
+        else
+        return t;
+                 
+    }
+
 
 }
