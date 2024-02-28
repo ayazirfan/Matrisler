@@ -168,6 +168,20 @@ public class Matris
         return t;
                  
     }
+    /// <summary>
+    /// Bir Matrisin Transpozunu alır
+    /// </summary>
+    /// <param name="X">Matris</param>
+    /// <returns>Transpoz</returns>
+    public static int [,] Transpoz (int[,] X)
+    {
+        int[,] T = new int[X.GetLength(1), X.GetLength(0)];
+        for (int i = 0; i < T.GetLength(0); i++)
+            for (int j = 0; j < T.GetLength(1); j++)
+                T[i,j] = X[j,i];
+        return T;
+        
+    }
 
 
 }

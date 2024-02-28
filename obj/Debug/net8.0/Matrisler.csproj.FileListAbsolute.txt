@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\refint\Matrisler.dll
 C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.pdb
 C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.genruntimeconfig.cache
 C:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\ref\Matrisler.dll
+c:\Users\HP\Desktop\BTK-Akademi\Matrisler\obj\Debug\net8.0\Matrisler.sourcelink.json
