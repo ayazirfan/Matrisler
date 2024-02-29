@@ -183,5 +183,57 @@ public class Matris
         
     }
 
+    public static int[,] YenidenSekillendir (int[,] X, int yeniSatir, int yeniSutun)
+    {
+        if (X.Length==yeniSatir*yeniSutun)
+        {
+            int [] D = new int[X.Length];
+        int sayac = 0;
+        int[,] Y = new int[yeniSatir,yeniSutun]; 
+        for (int i = 0; i < X.GetLength(0); i++)
+        for (int j = 0; j < X.GetLength(1); j++)
+        {
+            D[sayac] = X[i,j];
+            sayac++;
+        }
+        Yazdir(D);
+        sayac=0;
+        for (int i = 0; i < Y.GetLength(0); i++)
+        for (int j = 0; j < yeniSutun; j++)
+        {
+            Y[i,j] = D[sayac];
+            sayac++;
+        }
+            return Y;
+        }
+        else
+        {
+            System.Console.WriteLine("Bir Hata oluştu");
+            return new int[1,1];
+        }
+    }
+
+    public static bool EsitMi(int[,]X, int[,]Y)
+    {
+        bool s = true;
+        if (X.GetLength(0)==Y.GetLength(0)&&X.GetLength(1)==Y.GetLength(1))
+        {for (int i = 0; i< X.GetLength(0); i++)
+            for (int j = 0; j< X.GetLength(1); j++)
+            if (X[i,j]!=Y[i,j])
+            {
+                s= false;
+                break;
+            } 
+            
+        } 
+        else
+        {
+            s = false;
+        }
+        return s;
+    }
+
+
+
 
 }
