@@ -256,7 +256,24 @@ public class Matris
             return d;
         
     }
-
+    public static int Determinant2 ( int [,] X)
+    {
+        int d= -1;
+        if (KareMatrisMi(X))
+        {if (X.Length==4)
+         d= X[0,0]*X[1,1]-X[0,1]*X[1,0];
+    
+         else if (X.Length==9)
+         d=X[0,0]*(X[1,1]*X[2,2]-X[1,2]*X[2,1]) - 
+           X[0,1]*(X[1,0]*X[2,2]-X[2,0]*X[2,1])+
+           X[0,2]*(X[1,0]*X[2,1]-X[1,1]*X[2,1]);
+        }
+        else
+        
+            System.Console.WriteLine("Parametre Kare Matris olmalı");
+            return d;
+        
+    }
 
 
 
