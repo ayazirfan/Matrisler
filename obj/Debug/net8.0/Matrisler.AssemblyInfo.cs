@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Matrisler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f09298e7d1f67e4f0bbc5dbc910b0f0ebf4e67ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc8bf5fed6c5b89d190b276247363c5a1a56165")]
 [assembly: System.Reflection.AssemblyProductAttribute("Matrisler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Matrisler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

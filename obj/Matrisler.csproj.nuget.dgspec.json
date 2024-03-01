@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj": {}
+    "C:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj": {
+    "C:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj",
         "projectName": "Matrisler",
-        "projectPath": "c:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\Matrisler.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\BTK-Akademi\\Matrisler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

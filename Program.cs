@@ -15,7 +15,7 @@ using Matrisler;
 
 //System.Console.WriteLine("{0}", Matris.BirimMatrisMi(X) ? "Birim Matris" : "Birim Matris değil");
 
-int [,] X = Matris.Olustur(4,3);
+int [,] X = Matris.Olustur(3,3);
 
 int [] D = Matris.DiyagonelElemanlarinListesi(X);
 
@@ -32,5 +32,7 @@ int [,] B = Matris.Olustur(3,4);
 Matris.Yazdir(A);
 Matris.Yazdir(B);
 System.Console.WriteLine("{0}", Matris.EsitMi(X,Y)? "Matrisler esit" : "Matrisler esit değil.");
+
+System.Console.WriteLine("|X| = {0}",Matris.Determinant(X));
 
 
