@@ -256,25 +256,6 @@ public class Matris
             return d;
         
     }
-    ublic static bool EsitMi2(int[,]X, int[,]Y)
-    {
-        bool s = true;
-        if (X.GetLength(0)==Y.GetLength(0)&&X.GetLength(1)==Y.GetLength(1))
-        {for (int i = 0; i< X.GetLength(0); i++)
-            for (int j = 0; j< X.GetLength(1); j++)
-            if (X[i,j]!=Y[i,j])
-            {
-                s= false;
-                break;
-            } 
-            
-        } 
-        else
-        {
-            s = false;
-        }
-        return s;
-    }
-    
+        
 
 }
