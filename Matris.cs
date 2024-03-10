@@ -256,6 +256,21 @@ public class Matris
             return d;
         
     }
-        
 
-}
+    /// <summary>
+    /// Skaler bir değer ile matrisi carpar
+    /// </summary>
+    /// <param name="c">Skaler değer</param>
+    /// <param name="X">Matris</param>
+    /// <returns>Carpım sonucu</returns>
+    public static int [,] SkalerCarpim ( int c, int[,] X)
+    {
+        for (int i = 0; i < X.GetLength(0); i++)
+            for (int j = 0; j <X.GetLength(1); j++)
+                X[i,j] = c*X[i,j];
+            return X;        
+            
+    }
+    
+}        
+
