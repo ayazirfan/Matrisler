@@ -298,18 +298,6 @@ public class Matris
                     
     }
 
-    public static int [,] SimetrikMatrisOlustur67 (int boyut = 3, int min=1, int max=9)
-    {
-        int [,] X =KosegenMatrisOlustur (boyut,min,max);
-        for (int i = 0; i < X.GetLength(0); i++)
-            for (int j = 0; j <= i-1 ; j++)
-            {
-                X[i,j] = new Random().Next(min,max);
-                X[j,i] = X[i,j];
-            }
-            return X; 
-                    
-    }
-   
+       
 }        
 
